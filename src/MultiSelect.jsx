@@ -46,7 +46,7 @@ const MultiSelect = ({ options }) => {
           value={inputValue}
           placeholder="Select options..."
           onClick={handleToggleOptions}
-          readOnly // Make the input field read-only to prevent direct editing
+        //   readOnly // Make the input field read-only to prevent direct editing
         >
         {/* <button onClick={() => handleRemove(item)}>x</button> */}
         </input>
@@ -78,4 +78,4 @@ const MultiSelect = ({ options }) => {
     );
   };
 export default MultiSelect;
-// Example usage
+
