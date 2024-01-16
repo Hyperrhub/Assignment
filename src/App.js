@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+// import AutoCompleteChips from './AutoCompleteChips';
+// import EmailChipInput from './EmailChipInput';
+// import ChipsArray from './ChipsArray';
+import MultiSelect from './MultiSelect';
+// import CustomizedHook from './CustomizedHook';
+// import App from './MultiSelect';
 
 function App() {
+  const options = ['Option 1', 'Option 2', 'Option 3', 'Option 4']; 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <MultiSelect options={options} />
+      
     </div>
   );
 }
